@@ -14,6 +14,7 @@ function openFlutterApp(){
           await addDelay();
           await appRunner.runApp();
           document.querySelector("flutter-view").classList.add("fade-in");
+          document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#FFFFFF');
         }
       });
     });
