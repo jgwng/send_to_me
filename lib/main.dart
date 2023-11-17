@@ -3,6 +3,7 @@ import 'package:send_to_me/config/theme_config.dart';
 import 'package:send_to_me/screens/home_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 

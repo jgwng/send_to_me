@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 class AppThemes{
   AppThemes._();
 
-  static const Color mainColor = Color.fromRGBO(47, 46, 51, 1.0);
-  static const Color pointColor = Color.fromRGBO(110, 255, 0, 1.0);
-  static const Color pointColor2 = Color.fromRGBO(242, 198, 65, 1.0);
-  static const Color inActiveColor = Color.fromRGBO(174, 174, 174, 1.0);
+  static const Color mainColor = Color(0xff640d14);
+  static const Color disableColor = Color.fromRGBO(203, 205, 211, 1.0);
 
   static const defaultTextColor = Color.fromRGBO(47, 46, 51, 1.0);
   static const backgroundAppBarColor = mainColor;
@@ -25,7 +23,7 @@ class AppThemes{
     hoverColor: Colors.transparent,
     primaryColor: Colors.white,
     brightness: Brightness.light,
-    useMaterial3: true,
+    useMaterial3: false,
     scaffoldBackgroundColor: Colors.white,
     fontFamilyFallback: const ['Noto Sans SC'],
     canvasColor: Colors.white,
